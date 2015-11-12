@@ -1736,14 +1736,7 @@ angular.module('portalTemplates/user/tasks/list/tasks-layoutswitch.html', []).ru
 angular.module('portalTemplates/user/tasks/list/tasks-list.html', []).run(['$templateCache', function($templateCache) {
   'use strict';
   $templateCache.put('portalTemplates/user/tasks/list/tasks-list.html',
-    '<link rel="stylesheet" href="features/user/tasks/list/css/icomoon.css">\n' +
-    '    <link rel="stylesheet" href="features/user/tasks/list/css/task-app.css">\n' +
-    '    <link rel="stylesheet" href="features/user/tasks/list/css/task-filters.css">\n' +
-    '    <link rel="stylesheet" href="features/user/tasks/list/css/task-list.css">\n' +
-    '    <link rel="stylesheet" href="features/user/tasks/list/css/task-details.css">\n' +
-    '  <!-- endbuild -->\n' +
-    '\n' +
-    '  <toast></toast>\n' +
+    '<toast></toast>\n' +
     '  <div class="TaskListPage" ng-cloak task-app form-spy spy-submit="app.onFormSubmited(message)"\n' +
     '    ng-class="{\n' +
     '      \'TaskListPage--small\':app.smallScreen,\n' +
