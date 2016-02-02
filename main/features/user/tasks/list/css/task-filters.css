@@ -55,7 +55,7 @@
 .TaskListPage .nav-pills > li.active > a:hover,
 .TaskListPage .nav-pills > li.active > a:focus {
     background-color: #fff;
-    box-shadow: 0 5px 2px -2px #ddd;
+    box-shadow: 0 2px 2px -2px #ccc;
 }
 
 .TaskListPage .nav-pills > li > a:hover {
