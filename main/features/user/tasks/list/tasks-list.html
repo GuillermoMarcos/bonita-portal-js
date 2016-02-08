@@ -24,10 +24,8 @@
         <div class="alert alert-warning" ng-show="error">
           <p ng-bind-template="Please login to your bonita portal (Error {{error.status}})"></p>
         </div>
-      <div class="" ng-hide="error">
-        <div>
-          <div class="TaskList col-md-{{app.getSize()}}"
-               ng-if="!(app.showDetails && app.expandDetails) || app.smallScreen">
+      <div class="TaskList col-md-{{app.getSize()}}"
+           ng-if="!error && (!(app.showDetails && app.expandDetails) || app.smallScreen)">
             <div class="panel panel-default">
               <div class="Settings">
                 <div class="Settings-filter">
@@ -122,8 +120,6 @@
                 </task-details>
               </div>
             </div>
-          </div> <!-- .TaskDetails -->
         </div>
-      </div>
     </div>
   </div>
